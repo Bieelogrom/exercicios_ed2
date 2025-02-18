@@ -19,5 +19,10 @@ public class ExercicioSeisView {
             vetor[i] = sc.nextInt();
         }
 
+        int[] vetorInvertido = ec.InverterVetor(vetor, 0, vetor.length - 1);
+        
+        for (int i = 0; i < vetorInvertido.length; i++){
+            System.out.println("Índice: "+(i+1)+" Valor: "+vetorInvertido[i]);
+        }
     }
 }

@@ -5,10 +5,5 @@ public class ExercicioCincoController {
         super();
     }
 
-    public int CalcularMDC(int x, int y){
-        if(x > y){
-
-        }
-    }
 
 }
